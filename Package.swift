@@ -14,7 +14,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/database-kit.git", from: "1.2.0"),
         
         // *️⃣ Build SQL queries in Swift. Extensible, protocol-based design that supports DQL, DML, and DDL.
-        .package(url: "https://github.com/frets1700/mysql-kit.git", .branch("3.1"))
+        .package(url: "https://github.com/frets1700/sql-kit.git", .branch("2.1"))
     ],
     targets: [
         .testTarget(name: "SQLiteTests", dependencies: ["SQLite", "SQLBenchmark"]),
